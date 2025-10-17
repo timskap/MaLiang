@@ -12,6 +12,10 @@
 
 #import "Zip.h"
 
+// Include minizip headers directly
+#import "minizip/unzip.h"
+#import "minizip/zip.h"
+
 FOUNDATION_EXPORT double ZipVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZipVersionString[];
 
